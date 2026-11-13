@@ -36,8 +36,8 @@ repos:
       - id: commitizen
       - id: commitizen-branch
 
-  - repo: https://rosa.radicle.network/z2u7x2qgAhLqCFcMiy5CBGfZem19f.git
-    rev: fe6054596a86345201c2c104925ca5d33e21e987
+  - repo: https://github.com/nausicaea/rust-pre-commit-mirror
+    rev: v0.3.0
     hooks:
       - id: cargo-fmt-check
       - id: cargo-check
@@ -46,6 +46,5 @@ repos:
       - id: cargo-fmt
       - id: cargo-fix
       - id: clippy-fix
-      - id: mutants
       - id: audit
       - id: tarpaulin
