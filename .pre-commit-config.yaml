@@ -24,12 +24,6 @@ repos:
       - id: check-vcs-permalinks
       - id: forbid-submodules
 
-  - repo: https://github.com/thoughtworks/talisman
-    rev: v1.37.0
-    hooks:
-      - id: talisman-push
-      - id: talisman-commit
-
   - repo: https://github.com/commitizen-tools/commitizen
     rev: v4.17.0
     hooks:
